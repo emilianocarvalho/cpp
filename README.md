@@ -9,5 +9,5 @@ Pastas
 ###Cascades
 
 **Curso de Cascades**
-  Instrutor: Rodrigo Peixoto
+**Instrutor:** Rodrigo Peixoto
   BlackBerry Developer Brasil - http://blackberrydeveloper.com.br/

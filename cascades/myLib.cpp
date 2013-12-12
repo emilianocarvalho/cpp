@@ -31,8 +31,17 @@ int count(int c) {
   return x[100000];
 }
 
+int Registro::counter = 0;
+
 Registro::Registro(int id) {
   this->id = id;
+  counter++;
+  cout << "Temos " << counter << " registros" << endl;
+}
+
+Registro::~Registro(){
+  counter--;
+  cout << "Temos " << counter << " registros" << endl;
 }
 
 void Registro::setId(int newId) {

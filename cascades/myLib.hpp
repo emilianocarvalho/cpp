@@ -14,7 +14,9 @@ using namespace std;
       int id;
 
     public:
+      static int counter;
       Registro(int id);
+      ~Registro();
       void setId(int newId);
       int getId();
 

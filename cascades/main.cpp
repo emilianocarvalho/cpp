@@ -59,7 +59,10 @@ int main () {
 
   Conta * test3 = new Conta;
   test3->print();
-  Conta * test4 = new Conta(6789);
+  Conta * test4 = new Conta(6789, 100);
   test4->print();
+
+  Conta test5 = test2 + *test4;
+  test5.print();
 
 }

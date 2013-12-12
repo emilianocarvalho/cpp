@@ -10,8 +10,8 @@ using namespace std;
   };
 
   class Registro {
-    
-    int id;
+    protected:
+      int id;
 
     public:
       Registro(int id);
@@ -26,6 +26,7 @@ using namespace std;
       Conta(int id = 0, double saldo = 0); // constructor
       void print();
       double saldo;
+      Conta operator+(Conta other);
 
   };
 

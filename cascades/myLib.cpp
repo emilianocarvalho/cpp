@@ -50,5 +50,9 @@ Conta::Conta(int id, double saldo) : Registro(id) {
 
 void Conta::print() {
   cout << this->getId() << " , " << this->saldo << endl;
+  cout << this->id << " , " << this->saldo << endl;
 }
-
+Conta Conta::operator+(Conta other) {
+  Conta ret(this->id, this->saldo + other.saldo);
+  return ret;
+}

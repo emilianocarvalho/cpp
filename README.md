@@ -11,3 +11,7 @@ Pastas
     Curso de Cascades
     Instrutor: Rodrigo Peixoto
     BlackBerry Developer Brasil - http://blackberrydeveloper.com.br/
+
+###Exercícios
+
+    Digitar números e determinar os numeros pares no intervalo de 20 a 50...

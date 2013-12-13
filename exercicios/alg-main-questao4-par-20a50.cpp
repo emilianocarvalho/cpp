@@ -31,6 +31,6 @@ int main(int argc, char *argv[])
     cout << "Total de valores intervalo: "<<j<<endl;
     cout << "% dos valores pares e no intervalo 20 - 50: "<< (j/i)*100 << "%"<<endl;
     //return 0;
-    system("PAUSE");
+    //system("PAUSE"); utilizada somente no windows
     return EXIT_SUCCESS;
 }
